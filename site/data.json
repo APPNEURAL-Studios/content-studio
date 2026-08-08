@@ -1,0 +1,122 @@
+{
+  "slug": "content-studio",
+  "host": "content",
+  "title": "Content Studio",
+  "tagline": "Blogs, CMS, SEO and editorial calendar",
+  "description": "## Microservices Used",
+  "editors": [
+    {
+      "category": "Content Editors",
+      "name": "Blog Post Editor",
+      "desc": "Long-form article authoring"
+    },
+    {
+      "category": "Content Editors",
+      "name": "CMS Page Editor",
+      "desc": "Website page content management"
+    },
+    {
+      "category": "Content Editors",
+      "name": "SEO Meta Editor",
+      "desc": "Meta tags and structured data"
+    },
+    {
+      "category": "Content Editors",
+      "name": "Editorial Calendar Editor",
+      "desc": "Content scheduling and planning"
+    },
+    {
+      "category": "Content Editors",
+      "name": "Content Taxonomy Editor",
+      "desc": "Tags and category management"
+    },
+    {
+      "category": "Content Editors",
+      "name": "Author Byline Editor",
+      "desc": "Author profile and attribution"
+    },
+    {
+      "category": "Content Editors",
+      "name": "Content Template Editor",
+      "desc": "Reusable content block templates"
+    },
+    {
+      "category": "Content Editors",
+      "name": "Redirect Rule Editor",
+      "desc": "URL redirect management"
+    },
+    {
+      "category": "Content Editors",
+      "name": "Sitemap Editor",
+      "desc": "XML sitemap configuration"
+    },
+    {
+      "category": "Content Editors",
+      "name": "Content Version Editor",
+      "desc": "Draft and revision history"
+    },
+    {
+      "category": "Content Editors",
+      "name": "Keyword Research Editor",
+      "desc": "Target keyword tracking"
+    },
+    {
+      "category": "Content Editors",
+      "name": "Content Approval Flow Editor",
+      "desc": "Editorial review and approval chain"
+    },
+    {
+      "category": "Content Editors",
+      "name": "Syndication Editor",
+      "desc": "Cross-platform content syndication"
+    },
+    {
+      "category": "Content Editors",
+      "name": "Content Performance Editor",
+      "desc": "Traffic and engagement metrics"
+    },
+    {
+      "category": "Content Editors",
+      "name": "Newsletter Digest Editor",
+      "desc": "Curated email digest builder"
+    }
+  ],
+  "services": [
+    [
+      "publishing",
+      "core"
+    ],
+    [
+      "knowledge",
+      "core"
+    ],
+    [
+      "document",
+      "core"
+    ],
+    [
+      "media",
+      "new"
+    ],
+    [
+      "search",
+      "core"
+    ],
+    [
+      "workflow",
+      "core"
+    ],
+    [
+      "asset",
+      "gap"
+    ],
+    [
+      "collaboration",
+      "gap"
+    ],
+    [
+      "localization",
+      "gap"
+    ]
+  ]
+}
