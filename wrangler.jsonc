@@ -1,0 +1,42 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+
+  // Static hosting for the studio info page. Asset-only Worker — no `main`.
+  "name": "content-studio",
+  "compatibility_date": "2026-08-01",
+
+  "assets": {
+    "directory": "./site",
+    "not_found_handling": "single-page-application"
+  },
+
+  "observability": { "enabled": true },
+
+  "env": {
+    "production": {
+      "name": "content-studio",
+      "workers_dev": false,
+      "assets": {
+        "directory": "./site",
+        "not_found_handling": "single-page-application"
+      },
+      "routes": [
+        { "pattern": "content.studio.appneural.com", "custom_domain": true }
+      ],
+      "observability": { "enabled": true }
+    },
+
+    "dev": {
+      "name": "content-studio-dev",
+      "workers_dev": true,
+      "assets": {
+        "directory": "./site",
+        "not_found_handling": "single-page-application"
+      },
+      "routes": [
+        { "pattern": "content-dev.studio.appneural.com", "custom_domain": true }
+      ],
+      "observability": { "enabled": true }
+    }
+  }
+}
